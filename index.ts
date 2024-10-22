@@ -1,2 +1,4 @@
-let x = "Qasim Bhalli"
-console.log(x);
+function firstfun(){
+    let x = document.getElementById("yes");
+    x.innerHTML = "Absolutely";
+}

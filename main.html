@@ -7,6 +7,11 @@
     
 </head>
 <body>
-    <script src="index.js"></script>
+    <script src="index.js">compilation</script>
+    <p id="yes">This is my first time execution of typescript</p>
+    <button type="button" onclick="firstfun()">Yes</button>
+    <!-- tsc -w is used to auto compilation of typescript -->
     
+    <!-- "index.js" : "tsc <index.tsc> --outFile <index.js> -w", 
+     is uesd in package.json script to auto compilation of typescript -->
 </html>
